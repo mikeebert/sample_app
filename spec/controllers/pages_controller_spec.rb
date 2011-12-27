@@ -15,6 +15,10 @@ describe PagesController do
                       :content => "Ruby on Rails Tutorial Sample App | Home")
     end
     
+    it "should have a non-blank body" do
+      get 'home'
+      response.body.should_not =~ /<body>\s*<\/body>/
+    end
   end
 
   describe "GET 'contact'" do
