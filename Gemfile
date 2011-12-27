@@ -14,7 +14,7 @@ group :test do
   gem 'rspec'
 end
 
-group production do
+group :production do
   gem 'pg'
 end
   
