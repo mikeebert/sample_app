@@ -27,7 +27,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem 'hirb'
 gem 'webrat'
 
 # To use ActiveModel has_secure_password
