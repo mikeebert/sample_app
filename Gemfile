@@ -8,6 +8,7 @@ gem 'rails', '3.1.2'
 group :development do
   gem 'rspec-rails'
   gem 'sqlite3'
+  gem 'faker'
 end
 
 group :test do
@@ -31,6 +32,7 @@ gem 'jquery-rails'
 gem 'hirb'
 gem 'webrat'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
